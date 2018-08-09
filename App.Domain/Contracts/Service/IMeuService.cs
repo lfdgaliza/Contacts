@@ -1,0 +1,13 @@
+﻿using App.Domain.Dto;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace App.Domain.Contracts.Service
+{
+    public interface IMeuService : IService
+    {
+        RetornoDto RetornarAlgo(int i);
+        IList<RetornoDto> RetornarTudo();
+    }
+}
