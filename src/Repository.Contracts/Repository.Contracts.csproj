@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Galiza.Contacts.Repository.Contracts</AssemblyName>
+    <RootNamespace>Galiza.Contacts.Repository.Contracts</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Model.Entities\Model.Entities.csproj" />
+    <ProjectReference Include="..\Model.VO\Model.VO.csproj" />
+  </ItemGroup>
+
+</Project>

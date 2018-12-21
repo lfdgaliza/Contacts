@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Galiza.Contacts.Edge.ClientSDK</AssemblyName>
+    <RootNamespace>Galiza.Contacts.Edge.ClientSDK</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Transport.DTO\Transport.DTO.csproj" />
+  </ItemGroup>
+
+</Project>
