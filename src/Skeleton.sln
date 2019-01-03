@@ -21,11 +21,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.4 - Implementations", "1.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Essence", "Domain.Essence\Domain.Essence.csproj", "{3C1A75AC-C3B8-4962-A12B-D84F308C1845}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Implementations\Services\Services.csproj", "{751FC74D-C9E7-40AD-9740-53845C8741F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Impl.Services.V1", "Implementations\Services\Impl.Services.V1.csproj", "{751FC74D-C9E7-40AD-9740-53845C8741F4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clients", "Implementations\Clients\Clients.csproj", "{C3ADDF4B-703D-486D-85C0-6D32E9C62B52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Impl.Clients.V1", "Implementations\Clients\Impl.Clients.V1.csproj", "{C3ADDF4B-703D-486D-85C0-6D32E9C62B52}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories", "Implementations\Repositories\Repositories.csproj", "{28C557CC-6C71-4440-B0B0-274A8942E07A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Impl.Repositories.V1", "Implementations\Repositories\Impl.Repositories.V1.csproj", "{28C557CC-6C71-4440-B0B0-274A8942E07A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation.API", "Presentation.API\Presentation.API.csproj", "{36EB8EA8-BB96-44A9-AD20-838919C29D25}"
 EndProject
@@ -33,7 +33,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation.SDK", "Present
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.Infraestructure", "Company.Infraestructure\Company.Infraestructure.csproj", "{C3EB641D-6068-4B99-904E-3416301CDB2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Edge.Transport", "Edge.Transport\Edge.Transport.csproj", "{BE903F58-EF32-4E04-A84F-0F6A4EEC0448}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Edge.Transport", "Edge.Transport\Edge.Transport.csproj", "{BE903F58-EF32-4E04-A84F-0F6A4EEC0448}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

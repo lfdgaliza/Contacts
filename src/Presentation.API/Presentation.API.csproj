@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>Company.Skeleton.Presentation.API</AssemblyName>
+    <RootNamespace>Company.Skeleton.Presentation.API</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Company.Skeleton.Services</AssemblyName>
+    <RootNamespace>Company.Skeleton.Impl.Services.V1</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

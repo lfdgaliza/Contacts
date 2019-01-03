@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Company.Skeleton.Edge.DTO</AssemblyName>
+    <RootNamespace>Company.Skeleton.Edge.DTO</RootNamespace>
   </PropertyGroup>
 
 </Project>

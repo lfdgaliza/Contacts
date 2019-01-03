@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Company.Skeleton.Edge.Transport</AssemblyName>
+    <RootNamespace>Company.Skeleton.Edge.Transport</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
