@@ -13,4 +13,10 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Company.Infraestructure\Company.Infraestructure.csproj" />
+    <ProjectReference Include="..\Edge.DTO\Edge.DTO.csproj" />
+    <ProjectReference Include="..\Edge.Transport\Edge.Transport.csproj" />
+  </ItemGroup>
+
 </Project>

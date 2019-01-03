@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Models.Entities
+namespace Edge.Transport
 {
     public class Class1
     {

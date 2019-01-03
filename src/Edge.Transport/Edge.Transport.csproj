@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -6,8 +6,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Company.Infraestructure\Company.Infraestructure.csproj" />
+    <ProjectReference Include="..\Domain.Essence\Domain.Essence.csproj" PrivateAssets="All" />
+    <ProjectReference Include="..\Domain.Model\Domain.Model.csproj" PrivateAssets="All" />
     <ProjectReference Include="..\Edge.DTO\Edge.DTO.csproj" />
-    <ProjectReference Include="..\Edge.Transport\Edge.Transport.csproj" />
   </ItemGroup>
 
 </Project>
